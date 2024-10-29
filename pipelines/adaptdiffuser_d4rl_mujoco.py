@@ -17,7 +17,7 @@ from cleandiffuser.nn_diffusion import JannerUNet1d
 from cleandiffuser.utils import report_parameters
 from utils import set_seed
 
-
+# test
 @hydra.main(config_path="../configs/adaptdiffuser/mujoco", config_name="mujoco", version_base=None)
 def pipeline(args):
 
